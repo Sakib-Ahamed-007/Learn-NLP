@@ -1,3 +1,14 @@
+"""
+==================================================
+ Script Name : top_10_real_estate_contacts.py
+ Description : Web scraping top 10 real estate company details from Google Maps using Selenium.
+ Author      : Sakib Ahamed
+ Copyright   : © 2025 Sakib. 
+ License     : This script is free to use, modify, and distribute 
+               for any purpose with attribution. No warranty provided.
+==================================================
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
