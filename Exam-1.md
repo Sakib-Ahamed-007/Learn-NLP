@@ -108,7 +108,7 @@ emoji_corpus = [emoji.demojize(doc, delimiters=(" <", "> ")) for doc in corpus]
 print(emoji_corpus)
 ```
 We can also add tags to repetative punctuations like !!! -> <exclaim> and so on and keep the delimeters <> intact in the dataset
-```
+```python
 def tag_emotional_punctuation(text):
     text = re.sub(r'!{2,}', ' <exclaim> ', text)       # 2+ exclamation marks
     text = re.sub(r'\?{2,}', ' <question> ', text)     # 2+ question marks
